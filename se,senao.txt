@@ -1,0 +1,67 @@
+programa
+{
+   //aprovar media que for maior que 7
+     //menor de 7 reprovar   //aprovar media que for maior que 7
+     //menor de 7 reprovar	
+	funcao inicio()
+	{
+  
+
+	
+	real nota1,nota2,nota3,media
+
+	escreva("informe primeira nota: ")
+	leia (nota1)
+	escreva("informe segunda nota: ")
+	leia (nota2)
+     escreva("informe terceira nota: ")
+     leia (nota3)
+     media=(nota1+nota2+nota3)/3
+
+     limpa()
+     se(media> 7){
+        escreva("aprovado ",media)
+        
+     }
+     senao {
+     	escreva("reprovado")
+
+
+     
+     }
+	
+	}
+}
+
+
+
+
+
+
+
+programa
+{
+//ver dois valores e informar o maior	
+	funcao inicio()
+	{
+     inteiro valor1,valor2
+     escreva("informe o primero valor: ")
+     leia (valor1)
+     escreva("informe o segundo valor: ")
+     leia (valor2)
+
+     limpa ()
+
+     se(valor1>valor2){
+     	escreva("o maior é ",valor1)
+     }
+	senao {
+		escreva("o maior valor é ",valor2)
+	}
+	
+	
+	
+	}
+
+	
+}

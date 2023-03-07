@@ -1,0 +1,47 @@
+programa
+{
+   
+    funcao inicio()
+    {
+    inteiro opcao
+    real valor=1000,deposito,conta,saque,conta2
+        escreva("CONTA BANCARIA\n")
+        escreva("1) Deposito \n")
+        escreva("2) Saque\n")
+ 
+
+        escreva("Informe a opção que Deseja")
+        leia (opcao)
+
+        limpa()
+
+
+        escolha (opcao)
+        {
+            caso 1:
+            escreva("valor do deposito ")
+            leia(deposito)
+            conta=valor+deposito
+            escreva("seu saldo é ",conta)
+            
+            
+            pare
+            caso 2:
+            escreva("valor do saque ")
+            leia(saque)
+            conta2=valor-saque
+            escreva("seu saldo é ",conta2)
+           
+
+           
+            
+            pare
+           
+            caso contrario:
+            escreva("Opção Invalida!")
+        }
+
+        escreva("\n")
+
+    }
+}

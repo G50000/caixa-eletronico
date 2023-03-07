@@ -1,0 +1,116 @@
+programa
+{
+  inclua biblioteca Matematica
+//se o numero de peças defeituosas supera 10% da produção precisa de manutenção
+///se for menor de 10% não fazer nada
+	funcao inicio()
+	{
+	real pecasboas,pecasdefeito,manutencao,manutencao2,por=0.10
+	escreva("numero de peças sem defeito: ")
+	leia (pecasboas)
+	escreva("escreva numero de peças defeituosas: ")
+	leia (pecasdefeito)
+     manutencao=pecasboas*por
+     manutencao2=pecasdefeito*por
+     
+     limpa()
+     se(pecasdefeito/pecasboas>por){
+     escreva("necessita manutenção ")
+     }
+     
+     senao{
+     	escreva("não necessita de manutenção")
+     }
+	}
+}
+
+
+
+
+
+
+
+programa
+{
+//se o valor a sacar for maior que o saldo disponivel negar transação 
+//se o valor a sacar for menor que o saldo disponivel aprovar transação
+	
+	funcao inicio()
+	{
+     real saque,saldo=1000
+     escreva("informe seu saque: ")
+     leia (saque)
+
+    limpa()
+
+    se(saque>saldo){
+	escreva("saldo insuficiente")
+	
+	}
+
+	senao{
+     escreva("transação aprovada")
+
+	}
+}
+}
+
+
+
+
+
+programa
+{
+//caso a adição dos dois numeros seja maior que 10 apresenta-lo
+//caso a adição dos dois numeros 
+	funcao inicio()
+	{
+     inteiro numero1,numero2,set=10,calculo
+     escreva("informe primeiro numero: ")
+     leia (numero1)
+     escreva("informe segundo numero: ")
+     leia (numero2)
+     calculo=numero1+numero2
+
+     limpa()
+
+     se(calculo>set){
+     escreva("resultado ",calculo)
+
+     }
+     
+     senao{
+     	escreva("insuficiente")
+     }
+   
+     
+	}
+}
+
+
+
+
+programa
+{
+//diga se numero informado é par ou impar	
+	funcao inicio()
+	{
+     inteiro numeroinf,di=2,calculo
+     escreva("informe o numero ")
+     leia (numeroinf)
+
+
+     limpa() 
+
+     se(numeroinf%2==0){
+     escreva("par")
+
+     }
+
+
+     
+     senao{
+      escreva("impar")
+	}
+}
+}
